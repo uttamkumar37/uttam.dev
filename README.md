@@ -8,7 +8,7 @@ Purpose: Java Backend / SDE-2 portfolio with CloudCampus as the flagship project
 
 ## Positioning
 
-Java Backend Engineer building enterprise integrations and multi-tenant SaaS platforms.
+Java Backend Developer building enterprise integrations and multi-tenant SaaS platforms.
 
 Key signals:
 
@@ -20,11 +20,18 @@ Key signals:
 ## Local Preview
 
 ```bash
-cd sites/portfolio
 python3 -m http.server 8001
 ```
 
 Open `http://localhost:8001`.
+
+## Project Data
+
+Public GitHub project selection is tracked in `assets/data/projects.json`.
+
+- Canonical GitHub profile: `uttamkumar37`
+- Featured repos are chosen for Java/Spring Boot/backend/full-stack signal.
+- Learning, profile, portfolio infrastructure, and tiny support repos are excluded from the featured homepage grid.
 
 ## Deployment
 
