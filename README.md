@@ -4,11 +4,11 @@ Static personal portfolio for Uttam Kumar.
 
 Domain: `https://uttam.mycloudcampus.in/`
 
-Purpose: Java Backend / SDE-2 portfolio with CloudCampus as the flagship project.
+Purpose: recruiter-focused Software Engineer portfolio with CloudCampus as the flagship project.
 
 ## Positioning
 
-Java Backend Developer building enterprise integrations and multi-tenant SaaS platforms.
+Software Engineer focused on Java backend systems, enterprise integrations, APIs, and multi-tenant SaaS platforms.
 
 Key signals:
 
@@ -30,8 +30,19 @@ Open `http://localhost:8001`.
 Public GitHub project selection is tracked in `assets/data/projects.json`.
 
 - Canonical GitHub profile: `uttamkumar37`
-- Featured repos are chosen for Java/Spring Boot/backend/full-stack signal.
-- Learning, profile, portfolio infrastructure, and tiny support repos are excluded from the featured homepage grid.
+- The homepage keeps a focused set of three projects for recruiter clarity.
+- The `/projects/` index contains meaningful backend and full-stack work with category filters.
+
+## Site Structure
+
+- `/`: recruiter-focused professional portfolio
+- `/projects/`: selected work and filters
+- `/projects/cloudcampus/`: full CloudCampus case study
+- `/writing/`: engineering notes
+- `/resume/`: resume overview and PDF download
+- `https://ukglab.com/`: separate learning and experiments platform
+
+Centralized career, contact, and proof-point values live in `assets/data/profile.js`.
 
 ## Deployment
 

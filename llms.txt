@@ -2,25 +2,24 @@
 
 Primary URL: https://uttam.mycloudcampus.in/
 
-Uttam Kumar is an IIT Guwahati Java Backend Developer with 4.5+ years of Java, Spring Boot, Microservices, REST API, React, PostgreSQL, Docker, SQL, enterprise integration, and SaaS backend experience.
+Uttam Kumar is a Software Engineer focused on Java, Spring Boot, backend systems, REST APIs, enterprise integrations, multi-tenant SaaS, PostgreSQL, Docker, SQL, and system design.
 
 Key positioning:
-- Java Backend Engineer / SDE-2 / Senior Software Engineer candidate.
+- Software Engineer / Backend Engineer candidate.
 - Experience at Verint and Digit Insurance.
-- Founder of CloudCampus, an AI-ready multi-tenant School ERP SaaS platform.
+- Founder of CloudCampus, a multi-tenant School ERP SaaS platform under active development.
 - Focus areas: Spring Boot, REST APIs, microservices, multi-tenant SaaS, authentication, role-based access, backend architecture, Docker, CI/CD, and cloud-ready systems.
 
 Important sections:
 - Hero and recruiter snapshot: /
-- CloudCampus case study: /#cloudcampus
+- CloudCampus case study: /projects/cloudcampus/
 - Experience: /#experience
-- GitHub-selected backend and full-stack projects: /#projects
+- Selected backend and full-stack projects: /projects/
 - Engineering articles: /#writing
 - CloudCampus multi-tenancy article: /writing/cloudcampus-multi-tenancy/
 - Spring Boot JWT/RBAC article: /writing/spring-boot-jwt-rbac/
 - Enterprise integration adapters article: /writing/enterprise-integration-adapters/
-- Resume: /resume/Uttam_Kumar_Java_Backend_Engineer_4_Plus_Yrs_Resume.pdf
-- Project data: /assets/data/projects.json
+- Resume: /resume/
 
 Contact:
 - Email: uttamkumar3797@gmail.com

@@ -1,241 +1,61 @@
 {
   "githubUsername": "uttamkumar37",
   "githubProfileUrl": "https://github.com/uttamkumar37",
-  "lastSynced": "2026-06-07",
-  "source": "GitHub public API plus public README evidence",
-  "selectionRules": {
-    "featuredFirst": [
-      "CloudCampus",
-      "bloghub-rest-api",
-      "parking-lot",
-      "tic-tac-toe",
-      "task-manager"
-    ],
-    "prioritize": [
-      "Java",
-      "Spring Boot",
-      "Backend",
-      "Full Stack",
-      "React",
-      "Docker",
-      "PostgreSQL",
-      "JWT/Auth",
-      "System design",
-      "Verified live demos"
-    ],
-    "excludeFromFeatured": [
-      "forks",
-      "empty repositories",
-      "profile README repositories",
-      "portfolio infrastructure",
-      "tiny support sites",
-      "prep-only repositories"
-    ]
-  },
   "projects": [
     {
       "name": "CloudCampus",
       "repo": "CloudCampus",
-      "description": "AI-ready multi-tenant School ERP SaaS platform for schools, trusts, and multi-campus organizations.",
-      "techStack": [
-        "Java 21",
-        "Spring Boot",
-        "React",
-        "TypeScript",
-        "PostgreSQL",
-        "Flyway",
-        "Docker",
-        "Nginx",
-        "GitHub Actions"
-      ],
+      "description": "Multi-tenant School ERP SaaS platform for schools, trusts, and multi-campus organizations.",
+      "techStack": ["Java", "Spring Boot", "React", "PostgreSQL", "Flyway", "Docker", "Nginx", "GitHub Actions"],
       "githubUrl": "https://github.com/uttamkumar37/CloudCampus",
-      "liveUrl": "",
-      "category": "featured",
-      "status": "In Progress",
+      "category": ["saas", "full-stack", "api"],
+      "status": "Active development",
       "featured": true,
-      "highlights": [
-        "Multi-tenant SaaS architecture",
-        "JWT authentication and RBAC",
-        "Tenant onboarding",
-        "School access guards",
-        "Audit logging foundation",
-        "Docker and Nginx deployment path",
-        "GitHub Actions workflows"
-      ],
-      "notes": "README states staging-ready for controlled deployment/internal demo and not production-ready for paid customers."
+      "highlights": ["Multi-tenant SaaS architecture", "JWT authentication and RBAC", "Tenant onboarding", "School access guards", "Audit logging foundation", "Docker and GitHub Actions delivery"]
     },
     {
       "name": "BlogHub REST API",
       "repo": "bloghub-rest-api",
-      "description": "Production-style backend blogging API with authentication, posts, comments, Redis, observability, Docker, and CI/CD.",
-      "techStack": [
-        "Java 17",
-        "Spring Boot 3.5",
-        "Spring Security",
-        "JWT",
-        "MySQL",
-        "Redis",
-        "Flyway",
-        "Docker",
-        "OpenAPI",
-        "GitHub Actions"
-      ],
+      "description": "Backend blogging API with authentication, posts, comments, Redis, observability, Docker, and CI.",
+      "techStack": ["Java", "Spring Boot", "Spring Security", "JWT", "MySQL", "Redis", "Flyway", "Docker", "OpenAPI"],
       "githubUrl": "https://github.com/uttamkumar37/bloghub-rest-api",
-      "liveUrl": "",
-      "category": "backend",
-      "status": "Backend",
+      "category": ["backend", "api"],
+      "status": "Complete",
       "featured": true,
-      "highlights": [
-        "JWT access tokens",
-        "Refresh-token rotation",
-        "Redis blacklist",
-        "Role-based access",
-        "Keyset pagination",
-        "Nested comments",
-        "OpenAPI docs",
-        "Actuator and Prometheus",
-        "Docker Compose",
-        "CI/CD workflow"
-      ],
-      "notes": "README contains placeholder demo entries, so no live demo is shown."
+      "highlights": ["JWT access tokens and refresh-token rotation", "Redis-backed token invalidation", "Role-based access", "Keyset pagination and nested comments", "OpenAPI and operational visibility"]
     },
     {
       "name": "ParkSmart Parking Lot Management",
       "repo": "parking-lot",
-      "description": "Full-stack parking lot management app with booking, slot selection, billing, Stripe checkout, admin APIs, Redis, and Kafka.",
-      "techStack": [
-        "Java 21",
-        "Spring Boot 3.2",
-        "React",
-        "PostgreSQL",
-        "Flyway",
-        "Redis",
-        "Kafka",
-        "Stripe",
-        "Docker Compose",
-        "Nginx"
-      ],
+      "description": "Full-stack parking management app with booking, slot selection, billing, Stripe checkout, Redis, and Kafka.",
+      "techStack": ["Java", "Spring Boot", "React", "PostgreSQL", "Flyway", "Redis", "Kafka", "Stripe", "Docker Compose"],
       "githubUrl": "https://github.com/uttamkumar37/parking-lot",
-      "liveUrl": "",
-      "category": "full-stack",
-      "status": "Full Stack",
+      "category": ["full-stack", "backend", "api"],
+      "status": "Complete",
       "featured": true,
-      "highlights": [
-        "JWT authentication",
-        "Role-based admin APIs",
-        "Slot availability",
-        "Visual slot selection",
-        "Booking and exit flow",
-        "Billing",
-        "Stripe checkout session creation",
-        "Redis cache eviction",
-        "Kafka booking events",
-        "Docker Compose"
-      ],
-      "notes": "No public hosted demo is linked."
+      "highlights": ["JWT authentication and admin APIs", "Slot availability and booking flow", "Billing and Stripe checkout", "Redis cache invalidation", "Kafka booking events"]
     },
     {
       "name": "Realtime Tic-Tac-Toe Platform",
       "repo": "tic-tac-toe",
-      "description": "Full-stack Tic-Tac-Toe app with frontend demo mode and local/separate Spring Boot backend support.",
-      "techStack": [
-        "Java 17",
-        "Spring Boot 3.2",
-        "React 18",
-        "TypeScript",
-        "WebSocket/STOMP",
-        "JWT",
-        "MySQL",
-        "Redis",
-        "Docker",
-        "GitHub Actions"
-      ],
+      "description": "Full-stack game platform with WebSocket updates, JWT, Redis, MySQL, bot mode, and match history.",
+      "techStack": ["Java", "Spring Boot", "React", "TypeScript", "WebSocket/STOMP", "JWT", "MySQL", "Redis", "Docker"],
       "githubUrl": "https://github.com/uttamkumar37/tic-tac-toe",
-      "liveUrl": "",
-      "category": "full-stack",
-      "status": "Full Stack",
-      "featured": true,
-      "highlights": [
-        "Frontend-only demo mode",
-        "Spring Boot backend in repo",
-        "JWT authentication",
-        "WebSocket game updates",
-        "Bot mode",
-        "Redis-backed board cache",
-        "MySQL persistence",
-        "Docker Compose",
-        "GitHub Pages deploy"
-      ],
-      "notes": "README lists a public demo domain, but validation on 2026-06-07 could not resolve tictactoe.mycloudcampus.in. No live link is shown until it is reachable."
+      "category": ["full-stack", "backend", "api"],
+      "status": "Complete",
+      "featured": false,
+      "highlights": ["Protected REST endpoints", "WebSocket game updates", "Bot mode", "Redis-backed board cache", "MySQL persistence"]
     },
     {
       "name": "Task Manager",
       "repo": "task-manager",
       "description": "Full-stack task workflow app with owner-scoped tasks, JWT auth, PostgreSQL, Docker Compose, and CI.",
-      "techStack": [
-        "Java 17",
-        "Spring Boot 3.3",
-        "React 18",
-        "PostgreSQL 15",
-        "JWT",
-        "Docker Compose",
-        "GitHub Actions"
-      ],
+      "techStack": ["Java", "Spring Boot", "React", "PostgreSQL", "JWT", "Docker Compose", "GitHub Actions"],
       "githubUrl": "https://github.com/uttamkumar37/task-manager",
-      "liveUrl": "",
-      "category": "full-stack",
-      "status": "Full Stack",
-      "featured": true,
-      "highlights": [
-        "JWT register/login",
-        "Owner-scoped task APIs",
-        "Search and filters",
-        "Due dates and overdue detection",
-        "React dashboard",
-        "Docker Compose",
-        "CI workflow"
-      ],
-      "notes": "Smaller earlier practice project; included because it has real full-stack implementation. The GitHub homepage URL returned 404 during validation on 2026-06-07, so no live link is shown."
-    },
-    {
-      "name": "FAANG Backend 6-Month Prep",
-      "repo": "faang-backend-6-month-prep",
-      "description": "Learning repository for Java backend, DSA, SQL, system design, low-level design, debugging, and interview preparation.",
-      "techStack": [
-        "Java",
-        "DSA",
-        "SQL",
-        "System Design",
-        "Low-Level Design",
-        "Debugging"
-      ],
-      "githubUrl": "https://github.com/uttamkumar37/faang-backend-6-month-prep",
-      "liveUrl": "",
-      "category": "learning",
-      "status": "Learning Project",
+      "category": ["full-stack", "backend", "api"],
+      "status": "Complete",
       "featured": false,
-      "highlights": [
-        "Study plan",
-        "Java examples",
-        "DSA practice",
-        "System design notes",
-        "Mock interview bank"
-      ],
-      "notes": "Kept separate from featured portfolio projects."
-    }
-  ],
-  "hiddenRepositories": [
-    {
-      "repo": "uttam-portfolio-site",
-      "reason": "This portfolio website, not a product/project card."
-    },
-    {
-      "repo": "uttamkumar37",
-      "reason": "GitHub profile README repository."
-    },
-    {
-      "repo": "mycloudcampus-product-site",
-      "reason": "Tiny HTML support/product site, not enough portfolio depth."
+      "highlights": ["Owner-scoped task APIs", "Search and filters", "Due dates and overdue detection", "React dashboard", "Docker Compose and CI"]
     }
   ]
 }
